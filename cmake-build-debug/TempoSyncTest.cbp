@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="TempoSyncTest"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\JUCE\;CMake Files\..\..\JUCE\lib\;CMake Files\..\..\JUCE\lib\cmake\;CMake Files\..\..\JUCE\lib\cmake\JUCE-6.1.1\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TempoSyncTest_VST3">
+				<Option output="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/TempoSyncTest_artefacts/Debug/VST3/TempoSyncTest.vst3/Contents/x86_64-linux/TempoSyncTest.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDONT_SET_USING_JUCE_NAMESPACE"/>
+					<Add option="-DJUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add option="-D_DEBUG=1"/>
+					<Add option="-DJucePlugin_IsSynth=0"/>
+					<Add option="-DJucePlugin_ManufacturerCode=0x4a756365"/>
+					<Add option="-DJucePlugin_Manufacturer=&quot;yourcompany&quot;"/>
+					<Add option="-DJucePlugin_ManufacturerWebsite=&quot;&quot;"/>
+					<Add option="-DJucePlugin_ManufacturerEmail=&quot;&quot;"/>
+					<Add option="-DJucePlugin_PluginCode=0x44656d30"/>
+					<Add option="-DJucePlugin_ProducesMidiOutput=0"/>
+					<Add option="-DJucePlugin_IsMidiEffect=0"/>
+					<Add option="-DJucePlugin_WantsMidiInput=0"/>
+					<Add option="-DJucePlugin_EditorRequiresKeyboardFocus=0"/>
+					<Add option="-DJucePlugin_Name=&quot;TempoSyncTest&quot;"/>
+					<Add option="-DJucePlugin_Desc=&quot;TempoSyncTest&quot;"/>
+					<Add option="-DJucePlugin_Version=0.0.1"/>
+					<Add option="-DJucePlugin_VersionString=&quot;0.0.1&quot;"/>
+					<Add option="-DJucePlugin_VersionCode=0x1"/>
+					<Add option="-DJucePlugin_VSTUniqueID=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_VSTCategory=kPlugCategEffect"/>
+					<Add option="-DJucePlugin_Vst3Category=&quot;Fx&quot;"/>
+					<Add option="-DJucePlugin_AUMainType=&apos;aufx&apos;"/>
+					<Add option="-DJucePlugin_AUSubType=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_AUExportPrefix=TempoSyncTestAU"/>
+					<Add option="-DJucePlugin_AUExportPrefixQuoted=&quot;TempoSyncTestAU&quot;"/>
+					<Add option="-DJucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode"/>
+					<Add option="-DJucePlugin_CFBundleIdentifier=com.yourcompany.TempoSyncTest"/>
+					<Add option="-DJucePlugin_AAXIdentifier=com.yourcompany.TempoSyncTest"/>
+					<Add option="-DJucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode"/>
+					<Add option="-DJucePlugin_AAXProductId=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_AAXCategory=0"/>
+					<Add option="-DJucePlugin_AAXDisableBypass=0"/>
+					<Add option="-DJucePlugin_AAXDisableMultiMono=0"/>
+					<Add option="-DJucePlugin_VSTNumMidiInputs=16"/>
+					<Add option="-DJucePlugin_VSTNumMidiOutputs=16"/>
+					<Add option="-DJUCE_WEB_BROWSER=0"/>
+					<Add option="-DJUCE_USE_CURL=0"/>
+					<Add option="-DJUCE_VST3_CAN_REPLACE_VST2=0"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_utils=1"/>
+					<Add option="-DLINUX=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_processors=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_extra=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_basics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_graphics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_events=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_core=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_data_structures=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_basics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_formats=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_devices=1"/>
+					<Add option="-DJUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone"/>
+					<Add option="-DJucePlugin_Build_AU=0"/>
+					<Add option="-DJucePlugin_Build_AUv3=0"/>
+					<Add option="-DJucePlugin_Build_AAX=0"/>
+					<Add option="-DJucePlugin_Build_Standalone=0"/>
+					<Add option="-DJucePlugin_Build_Unity=0"/>
+					<Add option="-DJucePlugin_Build_VST=0"/>
+					<Add option="-DJucePlugin_Build_VST3=1"/>
+					<Add directory="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/TempoSyncTest_artefacts/JuceLibraryCode"/>
+					<Add directory="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules"/>
+					<Add directory="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_processors/format_types/VST3_SDK"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/libpng16"/>
+					<Add directory="/usr/include/harfbuzz"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/glib-2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 TempoSyncTest_VST3"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TempoSyncTest_VST3/fast">
+				<Option output="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/TempoSyncTest_artefacts/Debug/VST3/TempoSyncTest.vst3/Contents/x86_64-linux/TempoSyncTest.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDONT_SET_USING_JUCE_NAMESPACE"/>
+					<Add option="-DJUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add option="-D_DEBUG=1"/>
+					<Add option="-DJucePlugin_IsSynth=0"/>
+					<Add option="-DJucePlugin_ManufacturerCode=0x4a756365"/>
+					<Add option="-DJucePlugin_Manufacturer=&quot;yourcompany&quot;"/>
+					<Add option="-DJucePlugin_ManufacturerWebsite=&quot;&quot;"/>
+					<Add option="-DJucePlugin_ManufacturerEmail=&quot;&quot;"/>
+					<Add option="-DJucePlugin_PluginCode=0x44656d30"/>
+					<Add option="-DJucePlugin_ProducesMidiOutput=0"/>
+					<Add option="-DJucePlugin_IsMidiEffect=0"/>
+					<Add option="-DJucePlugin_WantsMidiInput=0"/>
+					<Add option="-DJucePlugin_EditorRequiresKeyboardFocus=0"/>
+					<Add option="-DJucePlugin_Name=&quot;TempoSyncTest&quot;"/>
+					<Add option="-DJucePlugin_Desc=&quot;TempoSyncTest&quot;"/>
+					<Add option="-DJucePlugin_Version=0.0.1"/>
+					<Add option="-DJucePlugin_VersionString=&quot;0.0.1&quot;"/>
+					<Add option="-DJucePlugin_VersionCode=0x1"/>
+					<Add option="-DJucePlugin_VSTUniqueID=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_VSTCategory=kPlugCategEffect"/>
+					<Add option="-DJucePlugin_Vst3Category=&quot;Fx&quot;"/>
+					<Add option="-DJucePlugin_AUMainType=&apos;aufx&apos;"/>
+					<Add option="-DJucePlugin_AUSubType=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_AUExportPrefix=TempoSyncTestAU"/>
+					<Add option="-DJucePlugin_AUExportPrefixQuoted=&quot;TempoSyncTestAU&quot;"/>
+					<Add option="-DJucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode"/>
+					<Add option="-DJucePlugin_CFBundleIdentifier=com.yourcompany.TempoSyncTest"/>
+					<Add option="-DJucePlugin_AAXIdentifier=com.yourcompany.TempoSyncTest"/>
+					<Add option="-DJucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode"/>
+					<Add option="-DJucePlugin_AAXProductId=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_AAXCategory=0"/>
+					<Add option="-DJucePlugin_AAXDisableBypass=0"/>
+					<Add option="-DJucePlugin_AAXDisableMultiMono=0"/>
+					<Add option="-DJucePlugin_VSTNumMidiInputs=16"/>
+					<Add option="-DJucePlugin_VSTNumMidiOutputs=16"/>
+					<Add option="-DJUCE_WEB_BROWSER=0"/>
+					<Add option="-DJUCE_USE_CURL=0"/>
+					<Add option="-DJUCE_VST3_CAN_REPLACE_VST2=0"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_utils=1"/>
+					<Add option="-DLINUX=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_processors=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_extra=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_basics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_graphics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_events=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_core=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_data_structures=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_basics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_formats=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_devices=1"/>
+					<Add option="-DJUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone"/>
+					<Add option="-DJucePlugin_Build_AU=0"/>
+					<Add option="-DJucePlugin_Build_AUv3=0"/>
+					<Add option="-DJucePlugin_Build_AAX=0"/>
+					<Add option="-DJucePlugin_Build_Standalone=0"/>
+					<Add option="-DJucePlugin_Build_Unity=0"/>
+					<Add option="-DJucePlugin_Build_VST=0"/>
+					<Add option="-DJucePlugin_Build_VST3=1"/>
+					<Add directory="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/TempoSyncTest_artefacts/JuceLibraryCode"/>
+					<Add directory="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules"/>
+					<Add directory="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_processors/format_types/VST3_SDK"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/libpng16"/>
+					<Add directory="/usr/include/harfbuzz"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/glib-2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 TempoSyncTest_VST3/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TempoSyncTest_Standalone">
+				<Option output="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/TempoSyncTest_artefacts/Debug/Standalone/TempoSyncTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDONT_SET_USING_JUCE_NAMESPACE"/>
+					<Add option="-DJUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add option="-D_DEBUG=1"/>
+					<Add option="-DJucePlugin_IsSynth=0"/>
+					<Add option="-DJucePlugin_ManufacturerCode=0x4a756365"/>
+					<Add option="-DJucePlugin_Manufacturer=&quot;yourcompany&quot;"/>
+					<Add option="-DJucePlugin_ManufacturerWebsite=&quot;&quot;"/>
+					<Add option="-DJucePlugin_ManufacturerEmail=&quot;&quot;"/>
+					<Add option="-DJucePlugin_PluginCode=0x44656d30"/>
+					<Add option="-DJucePlugin_ProducesMidiOutput=0"/>
+					<Add option="-DJucePlugin_IsMidiEffect=0"/>
+					<Add option="-DJucePlugin_WantsMidiInput=0"/>
+					<Add option="-DJucePlugin_EditorRequiresKeyboardFocus=0"/>
+					<Add option="-DJucePlugin_Name=&quot;TempoSyncTest&quot;"/>
+					<Add option="-DJucePlugin_Desc=&quot;TempoSyncTest&quot;"/>
+					<Add option="-DJucePlugin_Version=0.0.1"/>
+					<Add option="-DJucePlugin_VersionString=&quot;0.0.1&quot;"/>
+					<Add option="-DJucePlugin_VersionCode=0x1"/>
+					<Add option="-DJucePlugin_VSTUniqueID=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_VSTCategory=kPlugCategEffect"/>
+					<Add option="-DJucePlugin_Vst3Category=&quot;Fx&quot;"/>
+					<Add option="-DJucePlugin_AUMainType=&apos;aufx&apos;"/>
+					<Add option="-DJucePlugin_AUSubType=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_AUExportPrefix=TempoSyncTestAU"/>
+					<Add option="-DJucePlugin_AUExportPrefixQuoted=&quot;TempoSyncTestAU&quot;"/>
+					<Add option="-DJucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode"/>
+					<Add option="-DJucePlugin_CFBundleIdentifier=com.yourcompany.TempoSyncTest"/>
+					<Add option="-DJucePlugin_AAXIdentifier=com.yourcompany.TempoSyncTest"/>
+					<Add option="-DJucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode"/>
+					<Add option="-DJucePlugin_AAXProductId=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_AAXCategory=0"/>
+					<Add option="-DJucePlugin_AAXDisableBypass=0"/>
+					<Add option="-DJucePlugin_AAXDisableMultiMono=0"/>
+					<Add option="-DJucePlugin_VSTNumMidiInputs=16"/>
+					<Add option="-DJucePlugin_VSTNumMidiOutputs=16"/>
+					<Add option="-DJUCE_WEB_BROWSER=0"/>
+					<Add option="-DJUCE_USE_CURL=0"/>
+					<Add option="-DJUCE_VST3_CAN_REPLACE_VST2=0"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_utils=1"/>
+					<Add option="-DLINUX=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_processors=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_extra=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_basics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_graphics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_events=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_core=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_data_structures=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_basics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_formats=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_devices=1"/>
+					<Add option="-DJUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone"/>
+					<Add option="-DJucePlugin_Build_AU=0"/>
+					<Add option="-DJucePlugin_Build_AUv3=0"/>
+					<Add option="-DJucePlugin_Build_AAX=0"/>
+					<Add option="-DJucePlugin_Build_Standalone=1"/>
+					<Add option="-DJucePlugin_Build_Unity=0"/>
+					<Add option="-DJucePlugin_Build_VST=0"/>
+					<Add option="-DJucePlugin_Build_VST3=0"/>
+					<Add directory="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/TempoSyncTest_artefacts/JuceLibraryCode"/>
+					<Add directory="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules"/>
+					<Add directory="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_processors/format_types/VST3_SDK"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/libpng16"/>
+					<Add directory="/usr/include/harfbuzz"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/glib-2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 TempoSyncTest_Standalone"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TempoSyncTest_Standalone/fast">
+				<Option output="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/TempoSyncTest_artefacts/Debug/Standalone/TempoSyncTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDONT_SET_USING_JUCE_NAMESPACE"/>
+					<Add option="-DJUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add option="-D_DEBUG=1"/>
+					<Add option="-DJucePlugin_IsSynth=0"/>
+					<Add option="-DJucePlugin_ManufacturerCode=0x4a756365"/>
+					<Add option="-DJucePlugin_Manufacturer=&quot;yourcompany&quot;"/>
+					<Add option="-DJucePlugin_ManufacturerWebsite=&quot;&quot;"/>
+					<Add option="-DJucePlugin_ManufacturerEmail=&quot;&quot;"/>
+					<Add option="-DJucePlugin_PluginCode=0x44656d30"/>
+					<Add option="-DJucePlugin_ProducesMidiOutput=0"/>
+					<Add option="-DJucePlugin_IsMidiEffect=0"/>
+					<Add option="-DJucePlugin_WantsMidiInput=0"/>
+					<Add option="-DJucePlugin_EditorRequiresKeyboardFocus=0"/>
+					<Add option="-DJucePlugin_Name=&quot;TempoSyncTest&quot;"/>
+					<Add option="-DJucePlugin_Desc=&quot;TempoSyncTest&quot;"/>
+					<Add option="-DJucePlugin_Version=0.0.1"/>
+					<Add option="-DJucePlugin_VersionString=&quot;0.0.1&quot;"/>
+					<Add option="-DJucePlugin_VersionCode=0x1"/>
+					<Add option="-DJucePlugin_VSTUniqueID=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_VSTCategory=kPlugCategEffect"/>
+					<Add option="-DJucePlugin_Vst3Category=&quot;Fx&quot;"/>
+					<Add option="-DJucePlugin_AUMainType=&apos;aufx&apos;"/>
+					<Add option="-DJucePlugin_AUSubType=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_AUExportPrefix=TempoSyncTestAU"/>
+					<Add option="-DJucePlugin_AUExportPrefixQuoted=&quot;TempoSyncTestAU&quot;"/>
+					<Add option="-DJucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode"/>
+					<Add option="-DJucePlugin_CFBundleIdentifier=com.yourcompany.TempoSyncTest"/>
+					<Add option="-DJucePlugin_AAXIdentifier=com.yourcompany.TempoSyncTest"/>
+					<Add option="-DJucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode"/>
+					<Add option="-DJucePlugin_AAXProductId=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_AAXCategory=0"/>
+					<Add option="-DJucePlugin_AAXDisableBypass=0"/>
+					<Add option="-DJucePlugin_AAXDisableMultiMono=0"/>
+					<Add option="-DJucePlugin_VSTNumMidiInputs=16"/>
+					<Add option="-DJucePlugin_VSTNumMidiOutputs=16"/>
+					<Add option="-DJUCE_WEB_BROWSER=0"/>
+					<Add option="-DJUCE_USE_CURL=0"/>
+					<Add option="-DJUCE_VST3_CAN_REPLACE_VST2=0"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_utils=1"/>
+					<Add option="-DLINUX=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_processors=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_extra=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_basics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_graphics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_events=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_core=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_data_structures=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_basics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_formats=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_devices=1"/>
+					<Add option="-DJUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone"/>
+					<Add option="-DJucePlugin_Build_AU=0"/>
+					<Add option="-DJucePlugin_Build_AUv3=0"/>
+					<Add option="-DJucePlugin_Build_AAX=0"/>
+					<Add option="-DJucePlugin_Build_Standalone=1"/>
+					<Add option="-DJucePlugin_Build_Unity=0"/>
+					<Add option="-DJucePlugin_Build_VST=0"/>
+					<Add option="-DJucePlugin_Build_VST3=0"/>
+					<Add directory="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/TempoSyncTest_artefacts/JuceLibraryCode"/>
+					<Add directory="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules"/>
+					<Add directory="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_processors/format_types/VST3_SDK"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/libpng16"/>
+					<Add directory="/usr/include/harfbuzz"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/glib-2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 TempoSyncTest_Standalone/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TempoSyncTest_All">
+				<Option working_dir="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 TempoSyncTest_All"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TempoSyncTest">
+				<Option output="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/TempoSyncTest_artefacts/Debug/libTempoSyncTest_SharedCode.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DJucePlugin_Build_AU=0"/>
+					<Add option="-DJucePlugin_Build_AUv3=0"/>
+					<Add option="-DJucePlugin_Build_AAX=0"/>
+					<Add option="-DJucePlugin_Build_Standalone=1"/>
+					<Add option="-DJucePlugin_Build_Unity=0"/>
+					<Add option="-DJucePlugin_Build_VST=0"/>
+					<Add option="-DJucePlugin_Build_VST3=1"/>
+					<Add option="-DJUCE_SHARED_CODE=1"/>
+					<Add option="-DJUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone"/>
+					<Add option="-DJucePlugin_IsSynth=0"/>
+					<Add option="-DJucePlugin_ManufacturerCode=0x4a756365"/>
+					<Add option="-DJucePlugin_Manufacturer=&quot;yourcompany&quot;"/>
+					<Add option="-DJucePlugin_ManufacturerWebsite=&quot;&quot;"/>
+					<Add option="-DJucePlugin_ManufacturerEmail=&quot;&quot;"/>
+					<Add option="-DJucePlugin_PluginCode=0x44656d30"/>
+					<Add option="-DJucePlugin_ProducesMidiOutput=0"/>
+					<Add option="-DJucePlugin_IsMidiEffect=0"/>
+					<Add option="-DJucePlugin_WantsMidiInput=0"/>
+					<Add option="-DJucePlugin_EditorRequiresKeyboardFocus=0"/>
+					<Add option="-DJucePlugin_Name=&quot;TempoSyncTest&quot;"/>
+					<Add option="-DJucePlugin_Desc=&quot;TempoSyncTest&quot;"/>
+					<Add option="-DJucePlugin_Version=0.0.1"/>
+					<Add option="-DJucePlugin_VersionString=&quot;0.0.1&quot;"/>
+					<Add option="-DJucePlugin_VersionCode=0x1"/>
+					<Add option="-DJucePlugin_VSTUniqueID=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_VSTCategory=kPlugCategEffect"/>
+					<Add option="-DJucePlugin_Vst3Category=&quot;Fx&quot;"/>
+					<Add option="-DJucePlugin_AUMainType=&apos;aufx&apos;"/>
+					<Add option="-DJucePlugin_AUSubType=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_AUExportPrefix=TempoSyncTestAU"/>
+					<Add option="-DJucePlugin_AUExportPrefixQuoted=&quot;TempoSyncTestAU&quot;"/>
+					<Add option="-DJucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode"/>
+					<Add option="-DJucePlugin_CFBundleIdentifier=com.yourcompany.TempoSyncTest"/>
+					<Add option="-DJucePlugin_AAXIdentifier=com.yourcompany.TempoSyncTest"/>
+					<Add option="-DJucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode"/>
+					<Add option="-DJucePlugin_AAXProductId=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_AAXCategory=0"/>
+					<Add option="-DJucePlugin_AAXDisableBypass=0"/>
+					<Add option="-DJucePlugin_AAXDisableMultiMono=0"/>
+					<Add option="-DJucePlugin_VSTNumMidiInputs=16"/>
+					<Add option="-DJucePlugin_VSTNumMidiOutputs=16"/>
+					<Add option="-DJUCE_WEB_BROWSER=0"/>
+					<Add option="-DJUCE_USE_CURL=0"/>
+					<Add option="-DJUCE_VST3_CAN_REPLACE_VST2=0"/>
+					<Add option="-DDONT_SET_USING_JUCE_NAMESPACE"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_utils=1"/>
+					<Add option="-DLINUX=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_processors=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_extra=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_basics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_graphics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_events=1"/>
+					<Add option="-DJUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add option="-D_DEBUG=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_core=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_data_structures=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_basics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_formats=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_devices=1"/>
+					<Add directory="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/TempoSyncTest_artefacts/JuceLibraryCode"/>
+					<Add directory="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules"/>
+					<Add directory="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_processors/format_types/VST3_SDK"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/libpng16"/>
+					<Add directory="/usr/include/harfbuzz"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/glib-2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 TempoSyncTest"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TempoSyncTest/fast">
+				<Option output="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/TempoSyncTest_artefacts/Debug/libTempoSyncTest_SharedCode.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DJucePlugin_Build_AU=0"/>
+					<Add option="-DJucePlugin_Build_AUv3=0"/>
+					<Add option="-DJucePlugin_Build_AAX=0"/>
+					<Add option="-DJucePlugin_Build_Standalone=1"/>
+					<Add option="-DJucePlugin_Build_Unity=0"/>
+					<Add option="-DJucePlugin_Build_VST=0"/>
+					<Add option="-DJucePlugin_Build_VST3=1"/>
+					<Add option="-DJUCE_SHARED_CODE=1"/>
+					<Add option="-DJUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone"/>
+					<Add option="-DJucePlugin_IsSynth=0"/>
+					<Add option="-DJucePlugin_ManufacturerCode=0x4a756365"/>
+					<Add option="-DJucePlugin_Manufacturer=&quot;yourcompany&quot;"/>
+					<Add option="-DJucePlugin_ManufacturerWebsite=&quot;&quot;"/>
+					<Add option="-DJucePlugin_ManufacturerEmail=&quot;&quot;"/>
+					<Add option="-DJucePlugin_PluginCode=0x44656d30"/>
+					<Add option="-DJucePlugin_ProducesMidiOutput=0"/>
+					<Add option="-DJucePlugin_IsMidiEffect=0"/>
+					<Add option="-DJucePlugin_WantsMidiInput=0"/>
+					<Add option="-DJucePlugin_EditorRequiresKeyboardFocus=0"/>
+					<Add option="-DJucePlugin_Name=&quot;TempoSyncTest&quot;"/>
+					<Add option="-DJucePlugin_Desc=&quot;TempoSyncTest&quot;"/>
+					<Add option="-DJucePlugin_Version=0.0.1"/>
+					<Add option="-DJucePlugin_VersionString=&quot;0.0.1&quot;"/>
+					<Add option="-DJucePlugin_VersionCode=0x1"/>
+					<Add option="-DJucePlugin_VSTUniqueID=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_VSTCategory=kPlugCategEffect"/>
+					<Add option="-DJucePlugin_Vst3Category=&quot;Fx&quot;"/>
+					<Add option="-DJucePlugin_AUMainType=&apos;aufx&apos;"/>
+					<Add option="-DJucePlugin_AUSubType=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_AUExportPrefix=TempoSyncTestAU"/>
+					<Add option="-DJucePlugin_AUExportPrefixQuoted=&quot;TempoSyncTestAU&quot;"/>
+					<Add option="-DJucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode"/>
+					<Add option="-DJucePlugin_CFBundleIdentifier=com.yourcompany.TempoSyncTest"/>
+					<Add option="-DJucePlugin_AAXIdentifier=com.yourcompany.TempoSyncTest"/>
+					<Add option="-DJucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode"/>
+					<Add option="-DJucePlugin_AAXProductId=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_AAXCategory=0"/>
+					<Add option="-DJucePlugin_AAXDisableBypass=0"/>
+					<Add option="-DJucePlugin_AAXDisableMultiMono=0"/>
+					<Add option="-DJucePlugin_VSTNumMidiInputs=16"/>
+					<Add option="-DJucePlugin_VSTNumMidiOutputs=16"/>
+					<Add option="-DJUCE_WEB_BROWSER=0"/>
+					<Add option="-DJUCE_USE_CURL=0"/>
+					<Add option="-DJUCE_VST3_CAN_REPLACE_VST2=0"/>
+					<Add option="-DDONT_SET_USING_JUCE_NAMESPACE"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_utils=1"/>
+					<Add option="-DLINUX=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_processors=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_extra=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_basics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_graphics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_events=1"/>
+					<Add option="-DJUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add option="-D_DEBUG=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_core=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_data_structures=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_basics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_formats=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_devices=1"/>
+					<Add directory="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/TempoSyncTest_artefacts/JuceLibraryCode"/>
+					<Add directory="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules"/>
+					<Add directory="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_processors/format_types/VST3_SDK"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/libpng16"/>
+					<Add directory="/usr/include/harfbuzz"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/glib-2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 TempoSyncTest/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_basics/juce_audio_basics.cpp">
+			<Option target="TempoSyncTest"/>
+		</Unit>
+		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_basics/juce_audio_basics.h">
+			<Option target="TempoSyncTest"/>
+		</Unit>
+		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_devices/juce_audio_devices.cpp">
+			<Option target="TempoSyncTest"/>
+		</Unit>
+		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_devices/juce_audio_devices.h">
+			<Option target="TempoSyncTest"/>
+		</Unit>
+		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_formats/juce_audio_formats.cpp">
+			<Option target="TempoSyncTest"/>
+		</Unit>
+		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_formats/juce_audio_formats.h">
+			<Option target="TempoSyncTest"/>
+		</Unit>
+		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.cpp">
+			<Option target="TempoSyncTest_VST3"/>
+			<Option target="TempoSyncTest_Standalone"/>
+		</Unit>
+		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_plugin_client/juce_audio_plugin_client_RTAS_1.cpp">
+			<Option target="TempoSyncTest_VST3"/>
+			<Option target="TempoSyncTest_Standalone"/>
+		</Unit>
+		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_plugin_client/juce_audio_plugin_client_RTAS_2.cpp">
+			<Option target="TempoSyncTest_VST3"/>
+			<Option target="TempoSyncTest_Standalone"/>
+		</Unit>
+		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_plugin_client/juce_audio_plugin_client_RTAS_3.cpp">
+			<Option target="TempoSyncTest_VST3"/>
+			<Option target="TempoSyncTest_Standalone"/>
+		</Unit>
+		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_plugin_client/juce_audio_plugin_client_RTAS_4.cpp">
+			<Option target="TempoSyncTest_VST3"/>
+			<Option target="TempoSyncTest_Standalone"/>
+		</Unit>
+		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_plugin_client/juce_audio_plugin_client_RTAS_utils.cpp">
+			<Option target="TempoSyncTest_VST3"/>
+			<Option target="TempoSyncTest_Standalone"/>
+		</Unit>
+		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp">
+			<Option target="TempoSyncTest_VST3"/>
+			<Option target="TempoSyncTest_Standalone"/>
+		</Unit>
+		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp">
+			<Option target="TempoSyncTest_VST3"/>
+			<Option target="TempoSyncTest_Standalone"/>
+		</Unit>
+		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.cpp">
+			<Option target="TempoSyncTest_VST3"/>
+			<Option target="TempoSyncTest_Standalone"/>
+		</Unit>
+		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.cpp">
+			<Option target="TempoSyncTest_VST3"/>
+			<Option target="TempoSyncTest_Standalone"/>
+		</Unit>
+		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_plugin_client/juce_audio_plugin_client_utils.cpp">
+			<Option target="TempoSyncTest"/>
+		</Unit>
+		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_processors/juce_audio_processors.cpp">
+			<Option target="TempoSyncTest"/>
+		</Unit>
+		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_processors/juce_audio_processors.h">
+			<Option target="TempoSyncTest"/>
+		</Unit>
+		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_utils/juce_audio_utils.cpp">
+			<Option target="TempoSyncTest"/>
+		</Unit>
+		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_utils/juce_audio_utils.h">
+			<Option target="TempoSyncTest"/>
+		</Unit>
+		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_core/juce_core.cpp">
+			<Option target="TempoSyncTest"/>
+		</Unit>
+		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_core/juce_core.h">
+			<Option target="TempoSyncTest"/>
+		</Unit>
+		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_data_structures/juce_data_structures.cpp">
+			<Option target="TempoSyncTest"/>
+		</Unit>
+		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_data_structures/juce_data_structures.h">
+			<Option target="TempoSyncTest"/>
+		</Unit>
+		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_events/juce_events.cpp">
+			<Option target="TempoSyncTest"/>
+		</Unit>
+		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_events/juce_events.h">
+			<Option target="TempoSyncTest"/>
+		</Unit>
+		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_graphics/juce_graphics.cpp">
+			<Option target="TempoSyncTest"/>
+		</Unit>
+		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_graphics/juce_graphics.h">
+			<Option target="TempoSyncTest"/>
+		</Unit>
+		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_gui_basics/juce_gui_basics.cpp">
+			<Option target="TempoSyncTest"/>
+		</Unit>
+		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_gui_basics/juce_gui_basics.h">
+			<Option target="TempoSyncTest"/>
+		</Unit>
+		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_gui_extra/juce_gui_extra.cpp">
+			<Option target="TempoSyncTest"/>
+		</Unit>
+		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_gui_extra/juce_gui_extra.h">
+			<Option target="TempoSyncTest"/>
+		</Unit>
+		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/TempoSyncEditor.cpp">
+			<Option target="TempoSyncTest"/>
+		</Unit>
+		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/TempoSyncEditor.h">
+			<Option target="TempoSyncTest"/>
+		</Unit>
+		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/TempoSyncProcessor.cpp">
+			<Option target="TempoSyncTest"/>
+		</Unit>
+		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/TempoSyncProcessor.h">
+			<Option target="TempoSyncTest"/>
+		</Unit>
+		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/TempoSyncTest_artefacts/JuceLibraryCode/JuceHeader.h">
+			<Option target="TempoSyncTest"/>
+		</Unit>
+		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/TempoSyncTest_artefacts/JuceLibraryCode/JuceHeader.h.rule">
+			<Option target="TempoSyncTest"/>
+		</Unit>
+		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/../../JUCE/lib/cmake/JUCE-6.1.1/JUCECheckAtomic.cmake">
+			<Option virtualFolder="CMake Files\..\..\JUCE\lib\cmake\JUCE-6.1.1\"/>
+		</Unit>
+		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/../../JUCE/lib/cmake/JUCE-6.1.1/JUCEConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\JUCE\lib\cmake\JUCE-6.1.1\"/>
+		</Unit>
+		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/../../JUCE/lib/cmake/JUCE-6.1.1/JUCEConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\JUCE\lib\cmake\JUCE-6.1.1\"/>
+		</Unit>
+		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/../../JUCE/lib/cmake/JUCE-6.1.1/JUCEHelperTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\JUCE\lib\cmake\JUCE-6.1.1\"/>
+		</Unit>
+		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/../../JUCE/lib/cmake/JUCE-6.1.1/JUCEModuleSupport.cmake">
+			<Option virtualFolder="CMake Files\..\..\JUCE\lib\cmake\JUCE-6.1.1\"/>
+		</Unit>
+		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/../../JUCE/lib/cmake/JUCE-6.1.1/JUCEUtils.cmake">
+			<Option virtualFolder="CMake Files\..\..\JUCE\lib\cmake\JUCE-6.1.1\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

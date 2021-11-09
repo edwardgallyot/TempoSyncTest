@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+1cc7024b2c10bf4fa7ce0e8119835d43 TempoSyncTest_artefacts/JuceLibraryCode/JuceHeader.h
