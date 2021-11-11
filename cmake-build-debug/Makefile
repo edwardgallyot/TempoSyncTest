@@ -238,6 +238,30 @@ AtomicLabel.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TempoSyncTest.dir/build.make CMakeFiles/TempoSyncTest.dir/AtomicLabel.cpp.s
 .PHONY : AtomicLabel.cpp.s
 
+SubdivisionParameter.o: SubdivisionParameter.cpp.o
+.PHONY : SubdivisionParameter.o
+
+# target to build an object file
+SubdivisionParameter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TempoSyncTest.dir/build.make CMakeFiles/TempoSyncTest.dir/SubdivisionParameter.cpp.o
+.PHONY : SubdivisionParameter.cpp.o
+
+SubdivisionParameter.i: SubdivisionParameter.cpp.i
+.PHONY : SubdivisionParameter.i
+
+# target to preprocess a source file
+SubdivisionParameter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TempoSyncTest.dir/build.make CMakeFiles/TempoSyncTest.dir/SubdivisionParameter.cpp.i
+.PHONY : SubdivisionParameter.cpp.i
+
+SubdivisionParameter.s: SubdivisionParameter.cpp.s
+.PHONY : SubdivisionParameter.s
+
+# target to generate assembly for a file
+SubdivisionParameter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TempoSyncTest.dir/build.make CMakeFiles/TempoSyncTest.dir/SubdivisionParameter.cpp.s
+.PHONY : SubdivisionParameter.cpp.s
+
 TempoSyncEditor.o: TempoSyncEditor.cpp.o
 .PHONY : TempoSyncEditor.o
 
@@ -285,6 +309,54 @@ TempoSyncProcessor.s: TempoSyncProcessor.cpp.s
 TempoSyncProcessor.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TempoSyncTest.dir/build.make CMakeFiles/TempoSyncTest.dir/TempoSyncProcessor.cpp.s
 .PHONY : TempoSyncProcessor.cpp.s
+
+Transport.o: Transport.cpp.o
+.PHONY : Transport.o
+
+# target to build an object file
+Transport.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TempoSyncTest.dir/build.make CMakeFiles/TempoSyncTest.dir/Transport.cpp.o
+.PHONY : Transport.cpp.o
+
+Transport.i: Transport.cpp.i
+.PHONY : Transport.i
+
+# target to preprocess a source file
+Transport.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TempoSyncTest.dir/build.make CMakeFiles/TempoSyncTest.dir/Transport.cpp.i
+.PHONY : Transport.cpp.i
+
+Transport.s: Transport.cpp.s
+.PHONY : Transport.s
+
+# target to generate assembly for a file
+Transport.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TempoSyncTest.dir/build.make CMakeFiles/TempoSyncTest.dir/Transport.cpp.s
+.PHONY : Transport.cpp.s
+
+WhiteNoiseOsc.o: WhiteNoiseOsc.cpp.o
+.PHONY : WhiteNoiseOsc.o
+
+# target to build an object file
+WhiteNoiseOsc.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TempoSyncTest.dir/build.make CMakeFiles/TempoSyncTest.dir/WhiteNoiseOsc.cpp.o
+.PHONY : WhiteNoiseOsc.cpp.o
+
+WhiteNoiseOsc.i: WhiteNoiseOsc.cpp.i
+.PHONY : WhiteNoiseOsc.i
+
+# target to preprocess a source file
+WhiteNoiseOsc.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TempoSyncTest.dir/build.make CMakeFiles/TempoSyncTest.dir/WhiteNoiseOsc.cpp.i
+.PHONY : WhiteNoiseOsc.cpp.i
+
+WhiteNoiseOsc.s: WhiteNoiseOsc.cpp.s
+.PHONY : WhiteNoiseOsc.s
+
+# target to generate assembly for a file
+WhiteNoiseOsc.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TempoSyncTest.dir/build.make CMakeFiles/TempoSyncTest.dir/WhiteNoiseOsc.cpp.s
+.PHONY : WhiteNoiseOsc.cpp.s
 
 home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_basics/juce_audio_basics.o: home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_basics/juce_audio_basics.cpp.o
 .PHONY : home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_basics/juce_audio_basics.o
@@ -863,12 +935,21 @@ help:
 	@echo "... AtomicLabel.o"
 	@echo "... AtomicLabel.i"
 	@echo "... AtomicLabel.s"
+	@echo "... SubdivisionParameter.o"
+	@echo "... SubdivisionParameter.i"
+	@echo "... SubdivisionParameter.s"
 	@echo "... TempoSyncEditor.o"
 	@echo "... TempoSyncEditor.i"
 	@echo "... TempoSyncEditor.s"
 	@echo "... TempoSyncProcessor.o"
 	@echo "... TempoSyncProcessor.i"
 	@echo "... TempoSyncProcessor.s"
+	@echo "... Transport.o"
+	@echo "... Transport.i"
+	@echo "... Transport.s"
+	@echo "... WhiteNoiseOsc.o"
+	@echo "... WhiteNoiseOsc.i"
+	@echo "... WhiteNoiseOsc.s"
 	@echo "... home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_basics/juce_audio_basics.o"
 	@echo "... home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_basics/juce_audio_basics.i"
 	@echo "... home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_basics/juce_audio_basics.s"

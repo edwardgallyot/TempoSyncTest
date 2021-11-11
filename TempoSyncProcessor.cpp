@@ -13,6 +13,7 @@ TempoSyncProcessor::TempoSyncProcessor ()
 #endif
 )
 {
+    addParameter (subdivisionParameter);
 }
 
 TempoSyncProcessor::~TempoSyncProcessor ()
@@ -90,6 +91,9 @@ void TempoSyncProcessor::prepareToPlay (double sampleRate, int samplesPerBlock)
     // Use this method as the place to do any pre-playback
     // initialisation that you need..
     juce::ignoreUnused (sampleRate, samplesPerBlock);
+    transport.prepare (sampleRate, samplesPerBlock);
+    whiteNoiseOsc.prepare (sampleRate, samplesPerBlock);
+
 }
 
 void TempoSyncProcessor::releaseResources ()
@@ -126,12 +130,41 @@ void TempoSyncProcessor::processBlock (juce::AudioBuffer<float>& buffer,
                                        juce::MidiBuffer& midiMessages)
 {
     juce::ignoreUnused (midiMessages);
-    if (auto* playHead = this->getPlayHead ())
+    transport.process (getPlayHead (), buffer.getNumSamples ());
+    juce::AudioPlayHead::CurrentPositionInfo* info_p = &transport.getInfo ();
+
+    auto currentSubDivision = subdivisionParameter->getDivisionPPQ ();
+    auto halfCurrentSubDivision = currentSubDivision / 2.0f;
+    for (auto sample = 0; sample < buffer.getNumSamples (); ++sample)
     {
-        juce::AudioPlayHead::CurrentPositionInfo info;
-        playHead->getCurrentPosition (info);
-        currentPosition.store (info.ppqPosition);
+
+        for (auto channel = 0; channel < buffer.getNumChannels (); ++channel)
+        {
+            auto relativePosition = fmod (transport.getPpqPositions ()[sample],
+                                          subdivisionParameter->getDivisionPPQ ());
+            float sampleVal = 0.f;
+
+            if (isNoiseOn (halfCurrentSubDivision, relativePosition))
+                sampleVal = whiteNoiseOsc.getNextSample();
+
+            auto* writePointer = buffer.getWritePointer (channel, sample);
+
+            *writePointer = sampleVal;
+
+            if (info_p->isPlaying)
+                *writePointer *= 1.0f;
+            else
+                *writePointer *= 0.0f;
+        }
     }
+    buffer.applyGain (0.1f);
+
+    //whiteNoiseOsc.process (buffer);
+
+}
+bool TempoSyncProcessor::isNoiseOn (double halfCurrentSubDivision, double relativePosition) const
+{
+    return relativePosition < halfCurrentSubDivision;
 }
 
 //==============================================================================
@@ -160,6 +193,11 @@ void TempoSyncProcessor::setStateInformation (const void* data, int sizeInBytes)
     // whose contents will have been created by the getStateInformation() call.
     juce::ignoreUnused (data, sizeInBytes);
 }
+Transport& TempoSyncProcessor::getTransport ()
+{
+    return transport;
+}
+
 
 //==============================================================================
 // This creates new instances of the plugin..

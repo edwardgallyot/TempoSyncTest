@@ -2382,6 +2382,10 @@ JuceHeader.h
 atomic
 -
 
+/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/SubdivisionParameter.h
+JuceHeader.h
+/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/JuceHeader.h
+
 /home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/TempoSyncEditor.cpp
 TempoSyncProcessor.h
 /home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/TempoSyncProcessor.h
@@ -2397,6 +2401,20 @@ AtomicLabel.h
 /home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/TempoSyncProcessor.h
 JuceHeader.h
 -
+Transport.h
+/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/Transport.h
+WhiteNoiseOsc.h
+/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/WhiteNoiseOsc.h
+SubdivisionParameter.h
+/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/SubdivisionParameter.h
+
+/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/Transport.h
+JuceHeader.h
+/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/JuceHeader.h
+
+/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/WhiteNoiseOsc.h
+JuceHeader.h
+/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/JuceHeader.h
 
 TempoSyncTest_artefacts/JuceLibraryCode/JuceHeader.h
 juce_audio_utils/juce_audio_utils.h

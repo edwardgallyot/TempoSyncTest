@@ -109,9 +109,48 @@ CMakeFiles/TempoSyncTest.dir/AtomicLabel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TempoSyncTest.dir/AtomicLabel.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/AtomicLabel.cpp -o CMakeFiles/TempoSyncTest.dir/AtomicLabel.cpp.s
 
+CMakeFiles/TempoSyncTest.dir/Transport.cpp.o: CMakeFiles/TempoSyncTest.dir/flags.make
+CMakeFiles/TempoSyncTest.dir/Transport.cpp.o: ../Transport.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/TempoSyncTest.dir/Transport.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TempoSyncTest.dir/Transport.cpp.o -c /home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/Transport.cpp
+
+CMakeFiles/TempoSyncTest.dir/Transport.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TempoSyncTest.dir/Transport.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/Transport.cpp > CMakeFiles/TempoSyncTest.dir/Transport.cpp.i
+
+CMakeFiles/TempoSyncTest.dir/Transport.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TempoSyncTest.dir/Transport.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/Transport.cpp -o CMakeFiles/TempoSyncTest.dir/Transport.cpp.s
+
+CMakeFiles/TempoSyncTest.dir/WhiteNoiseOsc.cpp.o: CMakeFiles/TempoSyncTest.dir/flags.make
+CMakeFiles/TempoSyncTest.dir/WhiteNoiseOsc.cpp.o: ../WhiteNoiseOsc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/TempoSyncTest.dir/WhiteNoiseOsc.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TempoSyncTest.dir/WhiteNoiseOsc.cpp.o -c /home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/WhiteNoiseOsc.cpp
+
+CMakeFiles/TempoSyncTest.dir/WhiteNoiseOsc.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TempoSyncTest.dir/WhiteNoiseOsc.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/WhiteNoiseOsc.cpp > CMakeFiles/TempoSyncTest.dir/WhiteNoiseOsc.cpp.i
+
+CMakeFiles/TempoSyncTest.dir/WhiteNoiseOsc.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TempoSyncTest.dir/WhiteNoiseOsc.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/WhiteNoiseOsc.cpp -o CMakeFiles/TempoSyncTest.dir/WhiteNoiseOsc.cpp.s
+
+CMakeFiles/TempoSyncTest.dir/SubdivisionParameter.cpp.o: CMakeFiles/TempoSyncTest.dir/flags.make
+CMakeFiles/TempoSyncTest.dir/SubdivisionParameter.cpp.o: ../SubdivisionParameter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/TempoSyncTest.dir/SubdivisionParameter.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TempoSyncTest.dir/SubdivisionParameter.cpp.o -c /home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/SubdivisionParameter.cpp
+
+CMakeFiles/TempoSyncTest.dir/SubdivisionParameter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TempoSyncTest.dir/SubdivisionParameter.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/SubdivisionParameter.cpp > CMakeFiles/TempoSyncTest.dir/SubdivisionParameter.cpp.i
+
+CMakeFiles/TempoSyncTest.dir/SubdivisionParameter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TempoSyncTest.dir/SubdivisionParameter.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/SubdivisionParameter.cpp -o CMakeFiles/TempoSyncTest.dir/SubdivisionParameter.cpp.s
+
 CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_plugin_client/juce_audio_plugin_client_utils.cpp.o: CMakeFiles/TempoSyncTest.dir/flags.make
 CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_plugin_client/juce_audio_plugin_client_utils.cpp.o: /home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_plugin_client/juce_audio_plugin_client_utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_plugin_client/juce_audio_plugin_client_utils.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_plugin_client/juce_audio_plugin_client_utils.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_plugin_client/juce_audio_plugin_client_utils.cpp.o -c /home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_plugin_client/juce_audio_plugin_client_utils.cpp
 
 CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_plugin_client/juce_audio_plugin_client_utils.cpp.i: cmake_force
@@ -124,7 +163,7 @@ CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/includ
 
 CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_utils/juce_audio_utils.cpp.o: CMakeFiles/TempoSyncTest.dir/flags.make
 CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_utils/juce_audio_utils.cpp.o: /home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_utils/juce_audio_utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_utils/juce_audio_utils.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_utils/juce_audio_utils.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_utils/juce_audio_utils.cpp.o -c /home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_utils/juce_audio_utils.cpp
 
 CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_utils/juce_audio_utils.cpp.i: cmake_force
@@ -137,7 +176,7 @@ CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/includ
 
 CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_processors/juce_audio_processors.cpp.o: CMakeFiles/TempoSyncTest.dir/flags.make
 CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_processors/juce_audio_processors.cpp.o: /home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_processors/juce_audio_processors.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_processors/juce_audio_processors.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_processors/juce_audio_processors.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_processors/juce_audio_processors.cpp.o -c /home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_processors/juce_audio_processors.cpp
 
 CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_processors/juce_audio_processors.cpp.i: cmake_force
@@ -150,7 +189,7 @@ CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/includ
 
 CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_gui_extra/juce_gui_extra.cpp.o: CMakeFiles/TempoSyncTest.dir/flags.make
 CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_gui_extra/juce_gui_extra.cpp.o: /home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_gui_extra/juce_gui_extra.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_gui_extra/juce_gui_extra.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_gui_extra/juce_gui_extra.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_gui_extra/juce_gui_extra.cpp.o -c /home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_gui_extra/juce_gui_extra.cpp
 
 CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_gui_extra/juce_gui_extra.cpp.i: cmake_force
@@ -163,7 +202,7 @@ CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/includ
 
 CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_gui_basics/juce_gui_basics.cpp.o: CMakeFiles/TempoSyncTest.dir/flags.make
 CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_gui_basics/juce_gui_basics.cpp.o: /home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_gui_basics/juce_gui_basics.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_gui_basics/juce_gui_basics.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_gui_basics/juce_gui_basics.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_gui_basics/juce_gui_basics.cpp.o -c /home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_gui_basics/juce_gui_basics.cpp
 
 CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_gui_basics/juce_gui_basics.cpp.i: cmake_force
@@ -176,7 +215,7 @@ CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/includ
 
 CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_graphics/juce_graphics.cpp.o: CMakeFiles/TempoSyncTest.dir/flags.make
 CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_graphics/juce_graphics.cpp.o: /home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_graphics/juce_graphics.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_graphics/juce_graphics.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_graphics/juce_graphics.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_graphics/juce_graphics.cpp.o -c /home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_graphics/juce_graphics.cpp
 
 CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_graphics/juce_graphics.cpp.i: cmake_force
@@ -189,7 +228,7 @@ CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/includ
 
 CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_events/juce_events.cpp.o: CMakeFiles/TempoSyncTest.dir/flags.make
 CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_events/juce_events.cpp.o: /home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_events/juce_events.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_events/juce_events.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_events/juce_events.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_events/juce_events.cpp.o -c /home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_events/juce_events.cpp
 
 CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_events/juce_events.cpp.i: cmake_force
@@ -202,7 +241,7 @@ CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/includ
 
 CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_core/juce_core.cpp.o: CMakeFiles/TempoSyncTest.dir/flags.make
 CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_core/juce_core.cpp.o: /home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_core/juce_core.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_core/juce_core.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_core/juce_core.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_core/juce_core.cpp.o -c /home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_core/juce_core.cpp
 
 CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_core/juce_core.cpp.i: cmake_force
@@ -215,7 +254,7 @@ CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/includ
 
 CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_data_structures/juce_data_structures.cpp.o: CMakeFiles/TempoSyncTest.dir/flags.make
 CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_data_structures/juce_data_structures.cpp.o: /home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_data_structures/juce_data_structures.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_data_structures/juce_data_structures.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_data_structures/juce_data_structures.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_data_structures/juce_data_structures.cpp.o -c /home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_data_structures/juce_data_structures.cpp
 
 CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_data_structures/juce_data_structures.cpp.i: cmake_force
@@ -228,7 +267,7 @@ CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/includ
 
 CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_basics/juce_audio_basics.cpp.o: CMakeFiles/TempoSyncTest.dir/flags.make
 CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_basics/juce_audio_basics.cpp.o: /home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_basics/juce_audio_basics.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_basics/juce_audio_basics.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_basics/juce_audio_basics.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_basics/juce_audio_basics.cpp.o -c /home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_basics/juce_audio_basics.cpp
 
 CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_basics/juce_audio_basics.cpp.i: cmake_force
@@ -241,7 +280,7 @@ CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/includ
 
 CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_formats/juce_audio_formats.cpp.o: CMakeFiles/TempoSyncTest.dir/flags.make
 CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_formats/juce_audio_formats.cpp.o: /home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_formats/juce_audio_formats.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_formats/juce_audio_formats.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_formats/juce_audio_formats.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_formats/juce_audio_formats.cpp.o -c /home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_formats/juce_audio_formats.cpp
 
 CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_formats/juce_audio_formats.cpp.i: cmake_force
@@ -254,7 +293,7 @@ CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/includ
 
 CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_devices/juce_audio_devices.cpp.o: CMakeFiles/TempoSyncTest.dir/flags.make
 CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_devices/juce_audio_devices.cpp.o: /home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_devices/juce_audio_devices.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_devices/juce_audio_devices.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_devices/juce_audio_devices.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_devices/juce_audio_devices.cpp.o -c /home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_devices/juce_audio_devices.cpp
 
 CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_devices/juce_audio_devices.cpp.i: cmake_force
@@ -270,6 +309,9 @@ TempoSyncTest_OBJECTS = \
 "CMakeFiles/TempoSyncTest.dir/TempoSyncEditor.cpp.o" \
 "CMakeFiles/TempoSyncTest.dir/TempoSyncProcessor.cpp.o" \
 "CMakeFiles/TempoSyncTest.dir/AtomicLabel.cpp.o" \
+"CMakeFiles/TempoSyncTest.dir/Transport.cpp.o" \
+"CMakeFiles/TempoSyncTest.dir/WhiteNoiseOsc.cpp.o" \
+"CMakeFiles/TempoSyncTest.dir/SubdivisionParameter.cpp.o" \
 "CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_plugin_client/juce_audio_plugin_client_utils.cpp.o" \
 "CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_utils/juce_audio_utils.cpp.o" \
 "CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_processors/juce_audio_processors.cpp.o" \
@@ -289,6 +331,9 @@ TempoSyncTest_EXTERNAL_OBJECTS =
 TempoSyncTest_artefacts/Debug/libTempoSyncTest_SharedCode.a: CMakeFiles/TempoSyncTest.dir/TempoSyncEditor.cpp.o
 TempoSyncTest_artefacts/Debug/libTempoSyncTest_SharedCode.a: CMakeFiles/TempoSyncTest.dir/TempoSyncProcessor.cpp.o
 TempoSyncTest_artefacts/Debug/libTempoSyncTest_SharedCode.a: CMakeFiles/TempoSyncTest.dir/AtomicLabel.cpp.o
+TempoSyncTest_artefacts/Debug/libTempoSyncTest_SharedCode.a: CMakeFiles/TempoSyncTest.dir/Transport.cpp.o
+TempoSyncTest_artefacts/Debug/libTempoSyncTest_SharedCode.a: CMakeFiles/TempoSyncTest.dir/WhiteNoiseOsc.cpp.o
+TempoSyncTest_artefacts/Debug/libTempoSyncTest_SharedCode.a: CMakeFiles/TempoSyncTest.dir/SubdivisionParameter.cpp.o
 TempoSyncTest_artefacts/Debug/libTempoSyncTest_SharedCode.a: CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_plugin_client/juce_audio_plugin_client_utils.cpp.o
 TempoSyncTest_artefacts/Debug/libTempoSyncTest_SharedCode.a: CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_utils/juce_audio_utils.cpp.o
 TempoSyncTest_artefacts/Debug/libTempoSyncTest_SharedCode.a: CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_processors/juce_audio_processors.cpp.o
@@ -303,7 +348,7 @@ TempoSyncTest_artefacts/Debug/libTempoSyncTest_SharedCode.a: CMakeFiles/TempoSyn
 TempoSyncTest_artefacts/Debug/libTempoSyncTest_SharedCode.a: CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_devices/juce_audio_devices.cpp.o
 TempoSyncTest_artefacts/Debug/libTempoSyncTest_SharedCode.a: CMakeFiles/TempoSyncTest.dir/build.make
 TempoSyncTest_artefacts/Debug/libTempoSyncTest_SharedCode.a: CMakeFiles/TempoSyncTest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX static library TempoSyncTest_artefacts/Debug/libTempoSyncTest_SharedCode.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX static library TempoSyncTest_artefacts/Debug/libTempoSyncTest_SharedCode.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/TempoSyncTest.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TempoSyncTest.dir/link.txt --verbose=$(VERBOSE)
 

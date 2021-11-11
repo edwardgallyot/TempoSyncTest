@@ -1,7 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/TempoSyncTest.dir/AtomicLabel.cpp.o"
+  "CMakeFiles/TempoSyncTest.dir/SubdivisionParameter.cpp.o"
   "CMakeFiles/TempoSyncTest.dir/TempoSyncEditor.cpp.o"
   "CMakeFiles/TempoSyncTest.dir/TempoSyncProcessor.cpp.o"
+  "CMakeFiles/TempoSyncTest.dir/Transport.cpp.o"
+  "CMakeFiles/TempoSyncTest.dir/WhiteNoiseOsc.cpp.o"
   "CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_basics/juce_audio_basics.cpp.o"
   "CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_devices/juce_audio_devices.cpp.o"
   "CMakeFiles/TempoSyncTest.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_audio_formats/juce_audio_formats.cpp.o"
