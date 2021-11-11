@@ -25,7 +25,8 @@ add_compile_definitions(DONT_SET_USING_JUCE_NAMESPACE)
 # included JUCE directly in your source tree (perhaps as a submodule), you'll need to tell CMake to
 # include that subdirectory as part of the build.
 
-list(APPEND CMAKE_PREFIX_PATH "/home/edgallyot/drives/2TB_SSD/Documents/JUCE")
+list(APPEND CMAKE_PREFIX_PATH "/home/edgallyot/drives/2TB_SSD/Documents/JUCE" "/Users/edwardgallyot/JUCE")
+#list(APPEND_CMAKE_PREFIX_PATH "/Users/edwardgallyot/JUCE")
 find_package(JUCE CONFIG REQUIRED)        # If you've installed JUCE to your system
 # or
 #MAC
@@ -78,7 +79,8 @@ juce_generate_juce_header(${projectName})
 target_sources(${projectName}
     PRIVATE
         TempoSyncEditor.cpp
-        TempoSyncProcessor.cpp)
+        TempoSyncProcessor.cpp
+        AtomicLabel.cpp)
 
 # `target_compile_definitions` adds some preprocessor definitions to our target. In a Projucer
 # project, these might be passed in the 'Preprocessor Definitions' field. JUCE modules also make use

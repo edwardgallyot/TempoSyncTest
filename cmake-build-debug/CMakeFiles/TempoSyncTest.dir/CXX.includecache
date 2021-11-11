@@ -2376,6 +2376,12 @@ misc/juce_AnimatedAppComponent.h
 
 /home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_gui_extra/misc/juce_WebBrowserComponent.h
 
+/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/AtomicLabel.h
+JuceHeader.h
+/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/JuceHeader.h
+atomic
+-
+
 /home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/TempoSyncEditor.cpp
 TempoSyncProcessor.h
 /home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/TempoSyncProcessor.h
@@ -2385,6 +2391,8 @@ TempoSyncEditor.h
 /home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/TempoSyncEditor.h
 TempoSyncProcessor.h
 /home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/TempoSyncProcessor.h
+AtomicLabel.h
+/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/AtomicLabel.h
 
 /home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/TempoSyncProcessor.h
 JuceHeader.h

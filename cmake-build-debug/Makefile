@@ -214,6 +214,30 @@ TempoSyncTest/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TempoSyncTest.dir/build.make CMakeFiles/TempoSyncTest.dir/build
 .PHONY : TempoSyncTest/fast
 
+AtomicLabel.o: AtomicLabel.cpp.o
+.PHONY : AtomicLabel.o
+
+# target to build an object file
+AtomicLabel.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TempoSyncTest.dir/build.make CMakeFiles/TempoSyncTest.dir/AtomicLabel.cpp.o
+.PHONY : AtomicLabel.cpp.o
+
+AtomicLabel.i: AtomicLabel.cpp.i
+.PHONY : AtomicLabel.i
+
+# target to preprocess a source file
+AtomicLabel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TempoSyncTest.dir/build.make CMakeFiles/TempoSyncTest.dir/AtomicLabel.cpp.i
+.PHONY : AtomicLabel.cpp.i
+
+AtomicLabel.s: AtomicLabel.cpp.s
+.PHONY : AtomicLabel.s
+
+# target to generate assembly for a file
+AtomicLabel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TempoSyncTest.dir/build.make CMakeFiles/TempoSyncTest.dir/AtomicLabel.cpp.s
+.PHONY : AtomicLabel.cpp.s
+
 TempoSyncEditor.o: TempoSyncEditor.cpp.o
 .PHONY : TempoSyncEditor.o
 
@@ -836,6 +860,9 @@ help:
 	@echo "... TempoSyncTest"
 	@echo "... TempoSyncTest_Standalone"
 	@echo "... TempoSyncTest_VST3"
+	@echo "... AtomicLabel.o"
+	@echo "... AtomicLabel.i"
+	@echo "... AtomicLabel.s"
 	@echo "... TempoSyncEditor.o"
 	@echo "... TempoSyncEditor.i"
 	@echo "... TempoSyncEditor.s"

@@ -2,8 +2,8 @@
 #include "TempoSyncEditor.h"
 
 //==============================================================================
-TempoSyncEditor::TempoSyncEditor (TempoSyncProcessor& p)
-    : AudioProcessorEditor (&p), processorRef (p)
+TempoSyncEditor::TempoSyncEditor (TempoSyncProcessor& processorToUse)
+        : AudioProcessorEditor (&processorToUse), processorRef (processorToUse), atomicLabel (processorToUse.currentPosition)
 {
     juce::ignoreUnused (processorRef);
     // Make sure that before the constructor has finished, you've set the
@@ -11,23 +11,18 @@ TempoSyncEditor::TempoSyncEditor (TempoSyncProcessor& p)
     setSize (400, 300);
 }
 
-TempoSyncEditor::~TempoSyncEditor()
+TempoSyncEditor::~TempoSyncEditor ()
 {
 }
 
 //==============================================================================
 void TempoSyncEditor::paint (juce::Graphics& g)
 {
-    // (Our component is opaque, so we must completely fill the background with a solid colour)
-    g.fillAll (getLookAndFeel().findColour (juce::ResizableWindow::backgroundColourId));
-
-    g.setColour (juce::Colours::white);
-    g.setFont (15.0f);
-    g.drawFittedText ("Hello World!", getLocalBounds(), juce::Justification::centred, 1);
+//     (Our component is opaque, so we must completely fill the background with a solid colour)
+    addAndMakeVisible (atomicLabel);
 }
 
-void TempoSyncEditor::resized()
+void TempoSyncEditor::resized ()
 {
-    // This is generally where you'll want to lay out the positions of any
-    // subcomponents in your editor..
+    atomicLabel.setBounds(getLocalBounds());
 }

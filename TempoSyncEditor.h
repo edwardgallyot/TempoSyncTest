@@ -1,6 +1,7 @@
 #pragma once
 
 #include "TempoSyncProcessor.h"
+#include "AtomicLabel.h"
 
 //==============================================================================
 class TempoSyncEditor  : public juce::AudioProcessorEditor
@@ -13,6 +14,7 @@ public:
     void paint (juce::Graphics&) override;
     void resized() override;
 
+    AtomicLabel atomicLabel;
 private:
     // This reference is provided as a quick way for your editor to
     // access the processor object that created it.

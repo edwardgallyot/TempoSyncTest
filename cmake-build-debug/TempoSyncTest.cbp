@@ -733,6 +733,12 @@
 		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/include/JUCE-6.1.1/modules/juce_gui_extra/juce_gui_extra.h">
 			<Option target="TempoSyncTest"/>
 		</Unit>
+		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/AtomicLabel.cpp">
+			<Option target="TempoSyncTest"/>
+		</Unit>
+		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/AtomicLabel.h">
+			<Option target="TempoSyncTest"/>
+		</Unit>
 		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/TempoSyncTest/TempoSyncEditor.cpp">
 			<Option target="TempoSyncTest"/>
 		</Unit>

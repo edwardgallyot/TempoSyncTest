@@ -1,68 +1,69 @@
 #include "TempoSyncProcessor.h"
 #include "TempoSyncEditor.h"
 
+
 //==============================================================================
-TempoSyncProcessor::TempoSyncProcessor()
-     : AudioProcessor (BusesProperties()
-                     #if ! JucePlugin_IsMidiEffect
-                      #if ! JucePlugin_IsSynth
-                       .withInput  ("Input",  juce::AudioChannelSet::stereo(), true)
-                      #endif
-                       .withOutput ("Output", juce::AudioChannelSet::stereo(), true)
-                     #endif
-                       )
+TempoSyncProcessor::TempoSyncProcessor ()
+        : AudioProcessor (BusesProperties ()
+#if !JucePlugin_IsMidiEffect
+#if !JucePlugin_IsSynth
+                                  .withInput ("Input", juce::AudioChannelSet::stereo (), true)
+#endif
+                                  .withOutput ("Output", juce::AudioChannelSet::stereo (), true)
+#endif
+)
 {
 }
 
-TempoSyncProcessor::~TempoSyncProcessor()
+TempoSyncProcessor::~TempoSyncProcessor ()
 {
 }
 
 //==============================================================================
-const juce::String TempoSyncProcessor::getName() const
+const juce::String TempoSyncProcessor::getName () const
 {
     return JucePlugin_Name;
 }
 
-bool TempoSyncProcessor::acceptsMidi() const
+bool TempoSyncProcessor::acceptsMidi () const
 {
-   #if JucePlugin_WantsMidiInput
+#if JucePlugin_WantsMidiInput
     return true;
-   #else
+#else
     return false;
-   #endif
+#endif
 }
 
-bool TempoSyncProcessor::producesMidi() const
+bool TempoSyncProcessor::producesMidi () const
 {
-   #if JucePlugin_ProducesMidiOutput
+#if JucePlugin_ProducesMidiOutput
     return true;
-   #else
+#else
     return false;
-   #endif
+#endif
 }
 
-bool TempoSyncProcessor::isMidiEffect() const
+bool TempoSyncProcessor::isMidiEffect () const
 {
-   #if JucePlugin_IsMidiEffect
+#if JucePlugin_IsMidiEffect
     return true;
-   #else
+#else
     return false;
-   #endif
+#endif
 }
 
-double TempoSyncProcessor::getTailLengthSeconds() const
+double TempoSyncProcessor::getTailLengthSeconds () const
 {
     return 0.0;
 }
 
-int TempoSyncProcessor::getNumPrograms()
+int TempoSyncProcessor::getNumPrograms ()
 {
     return 1;   // NB: some hosts don't cope very well if you tell them there are 0 programs,
-                // so this should be at least 1, even if you're not really implementing programs.
+    // so this should be at least 1, even if you're not really implementing programs.
 }
 
-int TempoSyncProcessor::getCurrentProgram()
+int TempoSyncProcessor::getCurrentProgram ()
 {
     return 0;
 }
@@ -91,7 +92,7 @@ void TempoSyncProcessor::prepareToPlay (double sampleRate, int samplesPerBlock)
     juce::ignoreUnused (sampleRate, samplesPerBlock);
 }
 
-void TempoSyncProcessor::releaseResources()
+void TempoSyncProcessor::releaseResources ()
 {
     // When playback stops, you can use this as an opportunity to free up any
     // spare memory, etc.
@@ -99,41 +100,47 @@ void TempoSyncProcessor::releaseResources()
 
 bool TempoSyncProcessor::isBusesLayoutSupported (const BusesLayout& layouts) const
 {
-  #if JucePlugin_IsMidiEffect
+#if JucePlugin_IsMidiEffect
     juce::ignoreUnused (layouts);
     return true;
-  #else
+#else
     // This is the place where you check if the layout is supported.
     // In this template code we only support mono or stereo.
     // Some plugin hosts, such as certain GarageBand versions, will only
     // load plugins that support stereo bus layouts.
-    if (layouts.getMainOutputChannelSet() != juce::AudioChannelSet::mono()
-     && layouts.getMainOutputChannelSet() != juce::AudioChannelSet::stereo())
+    if (layouts.getMainOutputChannelSet () != juce::AudioChannelSet::mono ()
+        && layouts.getMainOutputChannelSet () != juce::AudioChannelSet::stereo ())
         return false;
 
     // This checks if the input layout matches the output layout
-   #if ! JucePlugin_IsSynth
-    if (layouts.getMainOutputChannelSet() != layouts.getMainInputChannelSet())
+#if !JucePlugin_IsSynth
+    if (layouts.getMainOutputChannelSet () != layouts.getMainInputChannelSet ())
         return false;
-   #endif
+#endif
 
     return true;
-  #endif
+#endif
 }
 
 void TempoSyncProcessor::processBlock (juce::AudioBuffer<float>& buffer,
                                        juce::MidiBuffer& midiMessages)
 {
     juce::ignoreUnused (midiMessages);
+    if (auto* playHead = this->getPlayHead ())
+    {
+        juce::AudioPlayHead::CurrentPositionInfo info;
+        playHead->getCurrentPosition (info);
+        currentPosition.store (info.ppqPosition);
+    }
 }
 
 //==============================================================================
-bool TempoSyncProcessor::hasEditor() const
+bool TempoSyncProcessor::hasEditor () const
 {
     return true; // (change this to false if you choose to not supply an editor)
 }
 
-juce::AudioProcessorEditor* TempoSyncProcessor::createEditor()
+juce::AudioProcessorEditor* TempoSyncProcessor::createEditor ()
 {
     return new TempoSyncEditor (*this);
 }
@@ -156,7 +163,7 @@ void TempoSyncProcessor::setStateInformation (const void* data, int sizeInBytes)
 
 //==============================================================================
 // This creates new instances of the plugin..
-juce::AudioProcessor* JUCE_CALLTYPE createPluginFilter()
+juce::AudioProcessor* JUCE_CALLTYPE createPluginFilter ()
 {
-    return new TempoSyncProcessor();
+    return new TempoSyncProcessor ();
 }
